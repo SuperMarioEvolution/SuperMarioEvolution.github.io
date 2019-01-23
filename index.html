@@ -1,0 +1,471 @@
+<style>
+   body {
+         font-family: "Arial Black", Gadget, sans-serif	 ;
+		 margin: 0px ;
+		 padding: 0px ;
+        }
+  header {
+  height: 556px;
+  width: auto;
+  text-align: center;
+  background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/514784251791671296/website_bg.png');
+  background-position: center center;
+  margin: 0px;
+  padding: 0px ;
+
+         }
+  #about {
+  text-align: center;
+         }
+.topnav {
+  position: sticky;
+  top: -5;
+}
+
+.topnav a {
+  position: relative;
+  bottom: 5;
+  float: left;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff; 
+}
+
+.topnav a:hover {
+  color: #111199;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+div.relative {
+    position: relative;
+    bottom: 250px;
+    font-size: 10px;
+    color: #555555;
+    text-align: center;
+}
+  #section {
+  height: 30px;
+  width: auto;
+  text-align: center;
+  background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/514893518859403275/unknown.png');
+  background-position: center center;
+  margin: 0px;
+  padding: 0px ;
+  color: #ffffff ;
+  text-shadow: 2px 2px 2px #000000;
+
+         }
+  #aboutsection {
+  height: 30px;
+  width: 1200;
+  margin: -30px;
+  color: #ffffff ;
+  text-shadow: 2px 2px 2px #000000;
+
+         }
+p.basicblock { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+	     }
+#avatar {
+    position: relative;
+width: 150px;
+height: 150px;
+float:right;
+box-shadow: 10px 10px 5px grey;
+    animation-name: avataranim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#evologo {
+width: 800px;
+height: autopx;
+margin-top: 100px;
+}
+
+p.sme1 { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-align: center;
+	     }
+#trailer {
+margin-left: 200;
+float: left;
+display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+
+}
+#preview {
+margin-right: 200;
+float: right;
+display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+
+}
+.screenshot {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+width: 300px ;
+height: auto ;
+margin: 40px;
+margin-top: 100px;
+margin-bottom: 100px;
+    transition: transform .6s;
+}
+
+.screenshot:hover {
+transform: scale(1.5)
+ }
+.screenshot:focus {
+transform: scale(3)
+ }
+ @keyframes avataranim {
+    0%   {top:-5px;}
+    50%  {top:5px;}
+    100% {top:-5px;}
+	}
+#hacklogo {
+    position: relative;
+width: auto;
+height: 200px;
+float:right;
+top: 25;
+}
+.tbutton {
+    background-color: #dd0000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+    opacity: 0.7;
+    transition: transform .2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} 
+.tbutton:hover {
+  opacity: 1;
+transform: scale(1.1)
+ }
+.dbutton {
+    background-color: #0022dd;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+    opacity: 0.7;
+    transition: transform .2s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.dbutton:hover {
+  opacity: 1;
+transform: scale(1.1)
+ }
+ p.cloudyblock { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/515615959436754944/light-blue.png');
+    background-position: center center;
+	background-attachment: fixed;
+	     }
+ p.lscblock { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/515616356129964032/white_nearly.png');
+    background-position: center center;
+	background-attachment: fixed;
+	     }
+ p.miniwiiblock { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/515615958908534784/green.png');
+    background-position: center center;
+	background-attachment: fixed;
+	     }
+ p.extremeblock { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/515615961542426624/pink.png');
+    background-position: center center;
+	background-attachment: fixed;
+	     }
+ p.mini2block { 
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url('https://cdn.discordapp.com/attachments/225590149126291467/515615964415524874/yellow.png');
+    background-position: center center;
+	background-attachment: fixed;
+	     }
+.outlined {
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff; 
+}
+#clogo {
+    position: relative;
+width: auto;
+height: 200px;
+float:right;
+bottom: 20;
+}
+#mainfooter {
+color: #999999 ;
+}
+ 
+</style>
+<title>Rimea's Github</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rimea</title>
+	<meta name="description" content="The place Rimea does things.">
+	<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/225590149126291467/514807199625904129/NewHead_BL.png">
+</head>
+<body id='homepage' background="https://cdn.discordapp.com/attachments/225590149126291467/514209779212746762/unknown.png">
+	<div>
+		<header>
+	        <br>
+	        <br>
+	        <br>
+			<img src='https://cdn.discordapp.com/attachments/505462683043233803/514181797815386132/rimLogo.png'>
+		</header>
+		<div id='mainWebsite'>
+
+			<div class='relative'>
+					where I'll be putting whatever the hell I want
+		    </div>
+							<div class="topnav">
+  <a href="#homepage">Home</a>
+  <a href="#aboutsection">About</a>
+  <a href="#sme">Super Mario Evolution</a>
+  <a href="#hacks">Other NSMBU Hacks</a>
+  <a href="#wtfm">Where To Find Me</a>
+</div>
+				<div id='about'>
+						<div id='section'></div><h2 id='aboutsection'>About Me</h2>
+				</div>
+			    <p class="basicblock">
+                <img id='avatar' src='https://cdn.discordapp.com/attachments/505462683043233803/514917570680455194/NewHead_BL_Big.png'>					
+				Hey there! <br>
+                ... <br>
+				"I am a robot, with laser-eyes" is what one of my friends suggested to me I should start this section with. <br>
+				No. I am not a robot, nor do I have laser-eyes. <br>
+				I am a adolescent living in the Netherlands, who likes to hack the Nintendo game "New Super Mario Bros U". <br>
+				I'm also a big fan of many movies and tv shows, and I don't mind some music too. <br>
+				...<br>
+                I've pretty much ran out of ideas for what else to say, so know that I do not enjoy descibing myself I guess ;-)
+				</p>
+				<div id='sme'>
+					    <h2 id='section'>Super Mario Evolution</h2>
+						<center>
+						<img id='evologo' src='https://cdn.discordapp.com/attachments/505462683043233803/514922068312195090/Super_Mario_Evolution_V2.png'>
+						</center>
+			    <p class="sme1">
+	            Super Mario Evolution is an upcomming hack of New Super Mario U which aims to replace all the stages, tilesets and music in the game.
+                This hack is being created by Rimea and Sierra, and we hope it will be finished and released in 2019. <br> <br>
+				<a href="https://www.youtube.com/channel/UCXAA3XorHPa8rLDZPHBFmhQ?sub_confirmation=1" class="tbutton">Subscribe to the Evolution Youtube Channel</a>				
+				</p>	
+				<iframe id='trailer' width="600" height="336" src="https://www.youtube-nocookie.com/embed/kok5p_ZK7GI " allowfullscreen></iframe>
+				<iframe id='preview' width="600" height="336" src="https://www.youtube-nocookie.com/embed/shRAsPzdO2Y" allowfullscreen></iframe>
+				<center>
+				<p>
+					<img class="screenshot" tabindex="0" src='https://cdn.discordapp.com/attachments/505462683043233803/514182022491537448/s1.jpg'>
+					<img class="screenshot" tabindex="1" src='https://cdn.discordapp.com/attachments/505462683043233803/514182023141654559/s2.jpg'>
+					<img class="screenshot" tabindex="2" src='https://cdn.discordapp.com/attachments/505462683043233803/514182025360572417/s3.jpg'>
+					<img class="screenshot" tabindex="3" src='https://media.discordapp.net/attachments/411945736150974509/521070933289730051/unknown.png'>
+				</p>
+				</center>
+				</div>
+				<div id='hacks'>
+					    <h2 id='section'>My Other NSMBU Hacks</h2>
+			    <p class="cloudyblock">
+                <img id='hacklogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515544092290318366/cloudy.png'>					
+				<b class="outlined">Cloudy Super Mario Bros U</b> <br>
+                <br>
+				Cloudy SMBU is a NSMBU hack I released back in November 2017, making it my first NSMBU hack, and the first NSMBU hack to go up to and past the final stage. <br>
+				This is however not a full hack, so don't expect to be able to play throug every stage. <br>
+				<br>
+				This hack contains:<br>
+				<br>
+                - 30 Brand new stages <br>
+                - New and old tilesets <br>
+                - New level mechanics and themes <br>
+                - A lot of bugs (it was my first hack after all) <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=uFX4Gq4lPto" class="tbutton">Trailer</a> <a href="https://dl.dropbox.com/s/o0nl3awgvv7ki93/CSMBU%20By%20Rimea%20v1.1.rar" class="dbutton">Download</a>						
+				</p>
+			    <p class="lscblock">
+                <img id='hacklogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515544094882136084/lsc.png'>					
+				<b class="outlined">Luigi Saves Christmas</b> <br>
+                <br>
+				Luigi Saves Christmas is my second hack, which I released durring the holiday season of 2017. Even though it's only a one-world hack, it was the first-ever NSLU hack released.<br>
+				<br>
+				This hack contains:<br>
+				<br>
+                - 8+ Brand new stages <br>
+                - Brand new tilesets <br>
+                - A christmas-y vibe! <br>
+                - A few retextures of enemies and objects <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=8veJlJ--ypA" class="tbutton">Trailer</a> <a href="https://dl.dropbox.com/s/ld71eu2g0no2b14/Luigi%20Saves%20Christmas%201.1.rar" class="dbutton">Download</a>						
+				</p>
+			    <p class="miniwiiblock">
+                <img id='hacklogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515544097558364178/mini_wii.png'>					
+				<b class="outlined">Mini Super Mario Bros Wii U</b> <br>
+                <br>
+				Mini SMB Wii U is a hack which remakes 8 stages from NSMBWII in NSMBU, making it a single-world hack. <br>
+				This hack was released in early 2018.<br>
+				<br>
+				This hack contains:<br>
+				<br>
+                - 8 Remade new stages <br>
+                - Wii tilesets remade for NSMBU <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=i4rzPYf_N5g" class="tbutton">Trailer</a> <a href="https://dl.dropbox.com/s/c7uddtkpr5n1q5l/MSMBWIIU.zip" class="dbutton">Download</a>						
+				</p>
+			    <p class="extremeblock">
+                <img id='hacklogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515544094525882378/extreme.png'>					
+				<b class="outlined"><i>EXTREME</i> Super Mario Bros U</b> <br>
+                <br>
+				Extreme SMBU is a 'kaizo' hack I made purely for fun. It's short, single-player only, and <b>super difficult</b>.<br>
+				<br>
+				This hack contains:<br>
+				<br>
+                - 6+ Brand new stages <br>
+                - Brand new tilesets <br>
+                - A unique, yet kaizo-y theme each stage <br>
+                - Extreme difficulty <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=-gsTlcHHzlQ" class="tbutton">Trailer</a> <a href="https://dl.dropbox.com/s/j464u30sg9e7cmk/ESMBU.rar" class="dbutton">Download</a>						
+				</p>
+			    <p class="mini2block">
+                <img id='hacklogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515544096761446401/mini2.png'>					
+				<b class="outlined">Mini Super Mario Bros 2 U</b> <br>
+                <br>
+				Mini SMB 2 U is a hack which remakes 8 stages from NSMB2 in NSMBU, making it a single-world hack. <br>
+				This hack was released in the summer of 2018.<br>
+				<br>
+				This hack contains:<br>
+				<br>
+                - 8+ Remade new stages <br>
+                - NSMB2 tilesets remade for NSMBU <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=O-MpOLnEoBo" class="tbutton">Trailer</a> <a href="https://dl.dropbox.com/s/0n59s48dyk1xfbg/MSMB2U.rar" class="dbutton">Download</a>						
+				</p>
+				</div>
+				<div id='wtfm'>
+					    <h2 id='section'>Where To Find Me</h2>
+			    <p class="basicblock">
+                <img id='clogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515630217449177089/yt.png'>					
+				<b class="outlined">My Youtube</b> <br>
+                <br>
+				My Youtube is the way I most frequently share things with the world, and where you'll be able to see constant updates on NSMBU-hacking related things.<br>
+				I don't have anything close to an upload schedule, but know that on average I post a video a week, though this is varies. <br>
+				<br>
+                <a href="https://www.youtube.com/channel/UCrNMdSyn_o2aGcm5lhKMF8g?sub_confirmation=1" class="tbutton">Click here to Subscribe!</a>				
+				</p>
+			    <p class="basicblock">
+                <img id='clogo' src='https://cdn.discordapp.com/attachments/225590149126291467/515630206619484191/dc.png'>					
+				<b class="outlined">The Evolution Discord</b> <br>
+                <br>
+				I co-own a NSMBU-hacking server together with my friend Sierra called 'Evolution' where you can get updated on the latest NSMBU-hacking things and share your own creations with other like-minded people.<br>
+				I also post weekly updates on my own hack 'Super Mario Evolution' on this Discord Server. <br>
+				<br>
+                <a href="https://discord.gg/aZAaXVJ" class="dbutton">Click here to join the server!</a>				
+				</p>
+						
+				</div>
+			<footer id='mainFooter'>
+			<center>
+			This website, its contents and all this other stuff isn't protected by copyright or anything like that ,blah blah blah , who even cares
+			</center>
+			</footer>
+		</div>
+	</div>
+</body>
+
+
+
